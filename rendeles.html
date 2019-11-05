@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Péksütemény rendelése</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stilus.css">
+</head>
+<body>
+	<div id="oldal">
+		<div id="fejlec"></div>
+		<div id="menusor">
+			<div id="kezdolap" class="menupont">
+				<a href="index.html">Kezdőlap</a>
+			</div>
+			<div id="kapcsolat" class="menupont">Rendelés</div>
+		</div>
+		<div id="tartalom">
+			<h1>Kérjük töltse ki az alábbi űrlapot a rendeléshez</h1>
+			<img id="udvozlet" src="udvozlet.jpg">
+
+			<form>
+				Teljes név: <input type="text" name="nev"><br>
+				<input type="checkbox" name="makos">Mákos bukta<br>
+				<input type="checkbox" name="csiga">Kakaós csiga<br>
+				Válassza ki, mivel szeretne fizetni:
+				<select name="fizetes">
+					<option value="keszpenz">készpénz</option>
+					<option value="bankkartya">bankkártya</option>
+				</select><br>
+				Kér-e hírlevelet? <br>
+				igen <input type="radio" name="hirlevel" checked>
+				nem <input type="radio" name="hirlevel"><br>
+				<input type="submit" name="kuld" value="Rendelés leadása">
+			</form>
+			
+		</div>
+		<div id="lablec">
+			Kapcsolat:<br />
+			1116 Budapest, Pék utca 16.<br />
+			Tel.: 06-1/987-6543<br />
+			E-mail: megsutomanapod@gmail.com
+		</div>
+	</div>
+
+
+</body>
+</html>

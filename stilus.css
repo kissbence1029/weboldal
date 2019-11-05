@@ -1,0 +1,78 @@
+body{
+	background-color: #836521;
+}
+
+a {
+	color: #F3DCA7;
+}
+
+#oldal{
+	margin: 0 auto;
+	width: 1250px;
+	background-color: #C8AB69;
+}
+
+#fejlec{
+	background-image: url(peksutik.png);
+	background-repeat: no-repeat;
+	width: 1210px;
+	height: 155px;
+	margin: 0 auto;
+}
+
+#menusor{
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.menupont{
+	width: 600px;
+	text-align: center;
+	background-color: #836521;
+	color: #F3DCA7;
+	font-size: 24pt;
+}
+
+#kezdolap{
+	float: left;
+}
+
+#kapcsolat{
+	float: right;
+}
+
+#tartalom{
+	width: 1210px;
+	margin: 0 auto;
+	text-align: justify;
+	height: 500px;
+}
+
+h1{
+	font-size: 32pt;
+	text-align: center;
+}
+
+#udvozlet{
+	float: right;
+	width: 500px;
+	margin-left: 20px;
+}
+
+#udvSzoveg{
+	text-align: justify;
+	font-size: 20pt;
+}
+
+#lablec{
+	width: 1210px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #F3DCA7;
+	padding: 10px 0px;
+	font-size: 16pt;
+}
+
+form{
+	font-size: 22pt;
+}
